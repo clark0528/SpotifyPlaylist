@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/cssfamily=Roboto:400, 500, 300, 700);
+
+body {
+  background: linear-gradient(to right, #3361ff, #25b7c4);
+  font-family: "Roboto", sans-serif;
+}
+
+table {
+  margin: auto;
+}
+
+th {
+  text-transform: uppercase;
+}
+
+td {
+  font-weight: 300;
+}
+
+th,
+td {
+  color: #fbfcfe;
+  padding: 15px;
+  text-align: center;
+  border-bottom: solid 3px rgba(255, 255, 255, 0.1);
+}
+
+#playlist-name {
+  text-align: center;
+  margin-bottom: 15px;
+}
